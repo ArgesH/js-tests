@@ -1,0 +1,20 @@
+body {
+    background: rebeccapurple;
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: consolas;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.btn1 {
+    display: none;
+}
+
+.btn2 {
+    display: none;
+}
