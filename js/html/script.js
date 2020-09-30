@@ -89,10 +89,10 @@ function updateVolume(){
 function write_text(){
     document.getElementById('1').innerText = text.slice(start, idx);
     idx ++;
-
     
     if(idx >= text.length){
         idx = 0;
+        i = 1;
     }
     var x = idx % 200;
     if(x == 0){
